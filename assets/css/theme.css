@@ -1,0 +1,9 @@
+@import './theme/swiper.css';
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply scroll-smooth bg-gray-100 dark:bg-gray-900;
+}
