@@ -15,8 +15,8 @@ importers:
         specifier: ^0.5.15
         version: 0.5.15(tailwindcss@3.4.13)
       '@thunderstorefront/api-mock':
-        specifier: ^0.0.3
-        version: 0.0.3
+        specifier: ^0.0.4
+        version: 0.0.4
       '@thunderstorefront/types':
         specifier: ^0.0.4
         version: 0.0.4
@@ -1338,8 +1338,8 @@ packages:
     peerDependencies:
       vue: ^2.7.0 || ^3.0.0
 
-  '@thunderstorefront/api-mock@0.0.3':
-    resolution: {integrity: sha512-IUD+3kyEx3BQK97pdwZnfgACACxhmm59PgX/3+pJHbxNmsujpLD1k+tv71130nzMnpvkfa55mHk0i6tlv2a9zA==}
+  '@thunderstorefront/api-mock@0.0.4':
+    resolution: {integrity: sha512-Z4l9u64tAH8JuZBvBvAAmiLpIR0HBdN4o84ajlpFl0PeDwJoxFVrmSmgunHnm5eFokVOSS5QboEkfeU3XSA26A==}
 
   '@thunderstorefront/types@0.0.4':
     resolution: {integrity: sha512-JxlPpjmlTPqWVJ460uTf6GESLZ9miBIFwNYApU41gfDXGNWfrOccqlCvX+upuxRNPd1NLjiohAw9Vnsp2W/b5w==}
@@ -6153,7 +6153,7 @@ snapshots:
       '@tanstack/virtual-core': 3.10.8
       vue: 3.5.12(typescript@5.6.3)
 
-  '@thunderstorefront/api-mock@0.0.3':
+  '@thunderstorefront/api-mock@0.0.4':
     dependencies:
       '@faker-js/faker': 8.4.1
       '@thunderstorefront/types': 0.0.4
