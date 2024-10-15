@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
 
   extends: [
-    ['github:gromovoy88/nuxt-commerce/packages/api-mock', { auth: process.env.GITHUB_TOKEN }],
+    '@thunderstorefront/api-mock',
     ['github:gromovoy88/nuxt-commerce/packages/sdk', { auth: process.env.GITHUB_TOKEN }],
     ['github:gromovoy88/nuxt-commerce/packages/thunder', { auth: process.env.GITHUB_TOKEN }],
   ],
