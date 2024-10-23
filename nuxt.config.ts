@@ -8,8 +8,8 @@ export default defineNuxtConfig({
 
   extends: [
     '@thunderstorefront/api-mock',
-    ['github:gromovoy88/nuxt-commerce/packages/sdk', { auth: process.env.GITHUB_TOKEN }],
-    ['github:gromovoy88/nuxt-commerce/packages/thunder', { auth: process.env.GITHUB_TOKEN }],
+    ['github:thunderstorefront/thunder/packages/sdk'],
+    ['github:thunderstorefront/thunder/packages/thunder'],
   ],
 
   devtools: { enabled: true }
