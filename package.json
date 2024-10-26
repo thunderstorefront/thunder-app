@@ -15,6 +15,8 @@
     "@tailwindcss/typography": "^0.5.15",
     "@thunderstorefront/types": "^0.0.4",
     "@thunderstorefront/api-mock": "^0.0.4",
+    "@thunderstorefront/sdk": "^0.0.3",
+    "@thunderstorefront/thunder": "^0.0.5",
     "nuxt": "^3.13.0",
     "ofetch": "^1.3.4",
     "prettier": "^3.3.3",

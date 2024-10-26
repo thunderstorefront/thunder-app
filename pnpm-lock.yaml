@@ -17,6 +17,12 @@ importers:
       '@thunderstorefront/api-mock':
         specifier: ^0.0.4
         version: 0.0.4
+      '@thunderstorefront/sdk':
+        specifier: ^0.0.3
+        version: 0.0.3
+      '@thunderstorefront/thunder':
+        specifier: ^0.0.5
+        version: 0.0.5(magicast@0.3.5)(rollup@4.24.0)
       '@thunderstorefront/types':
         specifier: ^0.0.4
         version: 0.0.4
@@ -1340,6 +1346,12 @@ packages:
 
   '@thunderstorefront/api-mock@0.0.4':
     resolution: {integrity: sha512-Z4l9u64tAH8JuZBvBvAAmiLpIR0HBdN4o84ajlpFl0PeDwJoxFVrmSmgunHnm5eFokVOSS5QboEkfeU3XSA26A==}
+
+  '@thunderstorefront/sdk@0.0.3':
+    resolution: {integrity: sha512-jwRTqGqjwMwn4m1K8r76HuN1gfq8ySYvVjIM6OLzb3eYirO4J6oemriPqFIvwGZBJ7+xIiSMFIeFrQ01lWXxpA==}
+
+  '@thunderstorefront/thunder@0.0.5':
+    resolution: {integrity: sha512-05YNZ7Ue4cZNb1xvQ4CVin7AqFktAuL9VwxnCM1zO2p5+XVq3sXxhXeHwqjgvYDKGg5Hh/C5rrI3E6wBKfkdjg==}
 
   '@thunderstorefront/types@0.0.4':
     resolution: {integrity: sha512-JxlPpjmlTPqWVJ460uTf6GESLZ9miBIFwNYApU41gfDXGNWfrOccqlCvX+upuxRNPd1NLjiohAw9Vnsp2W/b5w==}
@@ -4156,6 +4168,10 @@ packages:
     resolution: {integrity: sha512-24Wk3YUdZHxjc9faID97GTu6xnLNia+adMt6qMTZG/HgdSUt4fS0REsGUXJOgpTED0Amh/j+gRGQxsLayJUlBQ==}
     engines: {node: '>= 4.7.0'}
 
+  swiper@11.1.14:
+    resolution: {integrity: sha512-VbQLQXC04io6AoAjIUWuZwW4MSYozkcP9KjLdrsG/00Q/yiwvhz9RQyt0nHXV10hi9NVnDNy1/wv7Dzq1lkOCQ==}
+    engines: {node: '>= 4.7.0'}
+
   synckit@0.9.2:
     resolution: {integrity: sha512-vrozgXDQwYO72vHjUb/HnFbQx1exDjoKzqx23aXEg2a9VIg2TSFZ8FmeZpTjUCFMYw7mpX4BE2SFu8wI7asYsw==}
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -6158,6 +6174,26 @@ snapshots:
       '@faker-js/faker': 8.4.1
       '@thunderstorefront/types': 0.0.4
       ofetch: 1.4.1
+
+  '@thunderstorefront/sdk@0.0.3':
+    dependencies:
+      '@thunderstorefront/api-mock': 0.0.4
+      '@thunderstorefront/types': 0.0.4
+
+  '@thunderstorefront/thunder@0.0.5(magicast@0.3.5)(rollup@4.24.0)':
+    dependencies:
+      '@thunderstorefront/sdk': 0.0.3
+      '@thunderstorefront/types': 0.0.4
+      nuxt-swiper: 1.2.2(magicast@0.3.5)(rollup@4.24.0)
+      swiper: 11.1.14
+      typescript: 5.6.3
+      vue: 3.5.12(typescript@5.6.3)
+      vue-router: 4.4.5(vue@3.5.12(typescript@5.6.3))
+    transitivePeerDependencies:
+      - magicast
+      - rollup
+      - supports-color
+      - webpack-sources
 
   '@thunderstorefront/types@0.0.4':
     dependencies:
@@ -9413,6 +9449,8 @@ snapshots:
       picocolors: 1.1.0
 
   swiper@10.3.1: {}
+
+  swiper@11.1.14: {}
 
   synckit@0.9.2:
     dependencies:
