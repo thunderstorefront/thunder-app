@@ -8,8 +8,8 @@ export default defineNuxtConfig({
 
   extends: [
     '@thunderstorefront/api-mock',
-    ['github:thunderstorefront/thunder/packages/sdk'],
-    ['github:thunderstorefront/thunder/packages/thunder'],
+    '@thunderstorefront/sdk',
+    '@thunderstorefront/thunder',
   ],
 
   devtools: { enabled: true }
