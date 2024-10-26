@@ -21,8 +21,8 @@ importers:
         specifier: ^0.0.3
         version: 0.0.3
       '@thunderstorefront/thunder':
-        specifier: ^0.0.5
-        version: 0.0.5(magicast@0.3.5)(rollup@4.24.0)
+        specifier: ^0.0.6
+        version: 0.0.6(magicast@0.3.5)(rollup@4.24.0)
       '@thunderstorefront/types':
         specifier: ^0.0.4
         version: 0.0.4
@@ -1350,8 +1350,8 @@ packages:
   '@thunderstorefront/sdk@0.0.3':
     resolution: {integrity: sha512-jwRTqGqjwMwn4m1K8r76HuN1gfq8ySYvVjIM6OLzb3eYirO4J6oemriPqFIvwGZBJ7+xIiSMFIeFrQ01lWXxpA==}
 
-  '@thunderstorefront/thunder@0.0.5':
-    resolution: {integrity: sha512-05YNZ7Ue4cZNb1xvQ4CVin7AqFktAuL9VwxnCM1zO2p5+XVq3sXxhXeHwqjgvYDKGg5Hh/C5rrI3E6wBKfkdjg==}
+  '@thunderstorefront/thunder@0.0.6':
+    resolution: {integrity: sha512-708pmppzuRyS/Z3lcf+lPjmeiV+u+z16otFU1FmvTWH6OzhUWrPyIROlD69g+BQvFCe6bkVLy92/wCCl2kPL8A==}
 
   '@thunderstorefront/types@0.0.4':
     resolution: {integrity: sha512-JxlPpjmlTPqWVJ460uTf6GESLZ9miBIFwNYApU41gfDXGNWfrOccqlCvX+upuxRNPd1NLjiohAw9Vnsp2W/b5w==}
@@ -6180,7 +6180,7 @@ snapshots:
       '@thunderstorefront/api-mock': 0.0.4
       '@thunderstorefront/types': 0.0.4
 
-  '@thunderstorefront/thunder@0.0.5(magicast@0.3.5)(rollup@4.24.0)':
+  '@thunderstorefront/thunder@0.0.6(magicast@0.3.5)(rollup@4.24.0)':
     dependencies:
       '@thunderstorefront/sdk': 0.0.3
       '@thunderstorefront/types': 0.0.4
